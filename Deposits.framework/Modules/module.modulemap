@@ -1,0 +1,11 @@
+framework module Deposits {
+  umbrella header "Deposits.h"
+
+  export *
+  module * { export * }
+}
+
+module Deposits.Swift {
+    header "Deposits-Swift.h"
+    requires objc
+}
